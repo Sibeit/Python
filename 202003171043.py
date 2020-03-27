@@ -21,7 +21,7 @@ class Circle(Point):
         super().__init__(x,y)
 
     def area(self):
-        super().area()
+
         return  self.radius* self.radius*math.pi
 
     def getArea(self):
@@ -43,7 +43,7 @@ class Cylinder(Circle):
 
 
     def area(self):
-        super().area()
+
         return self.perimeter() * self.height
 
     def volume(self):
