@@ -1,7 +1,7 @@
 '''
 @Author: your name
 @Date: 2020-03-24 13:18:52
-@LastEditTime: 2020-03-28 13:30:35
+@LastEditTime: 2020-03-28 13:35:16
 @LastEditors: Please set LastEditors
 @Description: In User Settings Edit
 @FilePath: \Python\202003241318.py
@@ -31,6 +31,7 @@ class Salesman(Employee):
 class Checker(object):
     def judge(self,job):
         return job.getSalary()
+
 i={"aya":"Salesman","satori":"Manager","cirno":"Programmer","kaguya":"Programmer","momiji":"Salesman","junko":"Manager"}
 j=Checker()
 for key in i:
