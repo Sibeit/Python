@@ -1,11 +1,3 @@
-'''
-@Author: your name
-@Date: 2020-03-24 13:18:52
-@LastEditTime: 2020-03-28 13:35:16
-@LastEditors: Please set LastEditors
-@Description: In User Settings Edit
-@FilePath: \Python\202003241318.py
-'''
 class Employee(object):
     def __init__(self,n):
         self.__name=n
