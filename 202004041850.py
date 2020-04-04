@@ -1,3 +1,11 @@
+'''
+@Author: Sibeit
+@Date: 2020-04-04 18:49:35
+@LastEditTime: 2020-04-04 21:51:35
+@LastEditors: Please set LastEditors
+@Description: In User Settings Edit
+@FilePath: \Python\202004041850.py
+'''
 class Student(object):
     def __init__(self,name,score):
         self.name=name
@@ -28,6 +36,7 @@ stulist=[]
 stulist.append(Student("reimu:",82))
 stulist.append(Student("momiji",74))
 stulist.append(Student("cirno",99))
+
 Sort.List(stulist)
 for i in stulist:
     print(i)
