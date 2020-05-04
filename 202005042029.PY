@@ -1,7 +1,7 @@
 '''
 @Author: your name
 @Date: 2020-05-04 20:29:06
-@LastEditTime: 2020-05-04 21:55:05
+@LastEditTime: 2020-05-04 21:56:08
 @LastEditors: Please set LastEditors
 @Description: In User Settings Edit
 @FilePath: \Python\202005042029.PY
@@ -36,8 +36,7 @@ for i in range(0,l):
         l-=1
         continue
     j=j+li[i]
-print(j)
-print("平均值为",j/l)
+print("有效项平均值为",j/l)
 
 
     
